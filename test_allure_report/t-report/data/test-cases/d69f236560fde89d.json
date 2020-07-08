@@ -1,0 +1,82 @@
+{
+  "uid" : "d69f236560fde89d",
+  "name" : "test_parameterize_with_id[id explaining value 1]",
+  "fullName" : "test_allure_step#test_parameterize_with_id",
+  "historyId" : "5f72ed98ed301c641bcf8a980dcff358",
+  "time" : {
+    "start" : 1587458911009,
+    "stop" : 1587458911009,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "simple_step",
+      "time" : {
+        "start" : 1587458911009,
+        "stop" : 1587458911009,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step_param1",
+        "value" : "True"
+      }, {
+        "name" : "step_param2",
+        "value" : "None"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure_step"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "86161-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_step"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param1",
+    "value" : "True"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d69f236560fde89d.json",
+  "parameterValues" : [ "True" ]
+}

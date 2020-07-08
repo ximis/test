@@ -2,6 +2,8 @@ from jsonpath import jsonpath
 
 data = {"a":10, "b":20, "c":30}
 
+print(jsonpath(data,'a'))
+
 data = { "store": {
     "book": [
       { "category": "reference",
@@ -38,4 +40,4 @@ print(jsonpath(data, "$.store.book[0:3:2].title"))
 print(jsonpath(data, "$.store.book[0:2:2].title"))
 print(jsonpath(data, "$.store.book[?(@.price < 10)].title"))
 print(jsonpath(data, "$.store.book[(@.length -1)].title"))
-print(jsonpath(data, "$..book[(@.length -1)].title"))
+print(jsonpath(data, "$..book[(@.length -1)].title[0]"))

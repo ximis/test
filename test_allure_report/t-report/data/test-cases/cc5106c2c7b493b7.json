@@ -1,0 +1,51 @@
+{
+  "uid" : "cc5106c2c7b493b7",
+  "name" : "test_xfail_unexpected_pass",
+  "fullName" : "test_failure#test_xfail_unexpected_pass",
+  "historyId" : "bd8fdb7f3ba00d399bc242a88f81b9ad",
+  "time" : {
+    "start" : 1587454109959,
+    "stop" : 1587454109959,
+    "duration" : 0
+  },
+  "description" : "this test is an xfail that will be marked as unexpected success",
+  "descriptionHtml" : "<p>this test is an xfail that will be marked as unexpected success</p>\n",
+  "status" : "passed",
+  "statusMessage" : "XPASS this test is expecting failure",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_failure"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "83258-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_failure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc5106c2c7b493b7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,54 @@
+{
+  "uid" : "c154e57d61c5a04f",
+  "name" : "test_with_story_2_and_feature_2",
+  "fullName" : "test_allure_tag#test_with_story_2_and_feature_2",
+  "historyId" : "785129f69b2981cee1a6836e8641ecb6",
+  "time" : {
+    "start" : 1587454109916,
+    "stop" : 1587454109916,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story_2"
+  }, {
+    "name" : "feature",
+    "value" : "feature_2"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "83258-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c154e57d61c5a04f.json",
+  "parameterValues" : [ ]
+}

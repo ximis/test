@@ -1,0 +1,48 @@
+{
+  "total" : 24,
+  "items" : [ {
+    "uid" : "a207e64c185abe3ce96dc983bc7d055a",
+    "name" : "epic_1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "26534e8388c3fa9e4b02ed0970520072",
+    "name" : "story_1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6a9ccce4b70bf8cb3fe1d22166f165fa",
+    "name" : "story_2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3c41166215608b95997e5bff069ffd15",
+    "name" : "feature_2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

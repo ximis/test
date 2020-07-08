@@ -2,6 +2,7 @@ import pytest
 
 pytestmark = pytest.mark.joytest
 
+
 @pytest.mark.webtest
 def test_send_http():
     print("this use to send http")

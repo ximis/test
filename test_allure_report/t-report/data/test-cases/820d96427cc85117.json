@@ -1,0 +1,97 @@
+{
+  "uid" : "820d96427cc85117",
+  "name" : "test_with_testcase_link",
+  "fullName" : "test_link#test_with_testcase_link",
+  "historyId" : "6e7001bae0bc0116ac7b22da1614a5c1",
+  "time" : {
+    "start" : 1587459254929,
+    "stop" : 1587459254929,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_link"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "87398-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_link"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Test case title",
+    "url" : "https://github.com/qameta/allure-integrations/issues/8#issuecomment-268313637",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52fcbaf8ed6ad380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587458911093,
+        "stop" : 1587458911093,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4535e8136ff07960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587454109970,
+        "stop" : 1587454109970,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "baa6842e72dced76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587458911093,
+          "stop" : 1587458911093,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e614461984f88283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587454109970,
+          "stop" : 1587454109970,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "820d96427cc85117.json",
+  "parameterValues" : [ ]
+}

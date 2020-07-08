@@ -1,0 +1,101 @@
+{
+  "uid" : "c32c4bba94ea2155",
+  "name" : "test_xfail_expected_failure",
+  "fullName" : "test_failure#test_xfail_expected_failure",
+  "historyId" : "4e6959817de09b843e6633ce25627cdb",
+  "time" : {
+    "start" : 1587459254916,
+    "stop" : 1587459254916,
+    "duration" : 0
+  },
+  "description" : "this test is an xfail that will be marked as expected failure",
+  "descriptionHtml" : "<p>this test is an xfail that will be marked as expected failure</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "@pytest.mark.xfail(condition=lambda: True, reason='this test is expecting failure')\n    def test_xfail_expected_failure():\n        \"\"\"this test is an xfail that will be marked as expected failure\"\"\"\n>       assert False\nE       assert False\n\ntest_failure.py:7: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_failure"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "87398-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_failure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed47deeca994ab19",
+      "status" : "skipped",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1587458911079,
+        "stop" : 1587458911079,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "231bfcece02a56cd",
+      "status" : "skipped",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1587454109954,
+        "stop" : 1587454109955,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c71d0cd42a55e3b3",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1587458911079,
+          "stop" : 1587458911079,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "66781a29e80611f9",
+        "status" : "skipped",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1587454109954,
+          "stop" : 1587454109955,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c32c4bba94ea2155.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,51 @@
+{
+  "uid" : "12f0b59ffbfc27dd",
+  "name" : "test_with_epic_1",
+  "fullName" : "test_allure_tag#test_with_epic_1",
+  "historyId" : "f9228842bcb5e57c88154b145cd5d2b6",
+  "time" : {
+    "start" : 1587458911036,
+    "stop" : 1587458911037,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "epic_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "86161-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12f0b59ffbfc27dd.json",
+  "parameterValues" : [ ]
+}

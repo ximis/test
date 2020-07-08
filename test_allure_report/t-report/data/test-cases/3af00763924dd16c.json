@@ -1,0 +1,96 @@
+{
+  "uid" : "3af00763924dd16c",
+  "name" : "test_with_story_1",
+  "fullName" : "test_allure_tag#test_with_story_1",
+  "historyId" : "ac0381fa997fce896a28db8753050b4b",
+  "time" : {
+    "start" : 1587459254870,
+    "stop" : 1587459254871,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "story_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "87398-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77c6bdd173d64b62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587458911039,
+        "stop" : 1587458911039,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec978a6a17a18287",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587454109913,
+        "stop" : 1587454109913,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fdc522718ec8e778",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587458911039,
+          "stop" : 1587458911039,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "51ce7b84cf56a767",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587454109913,
+          "stop" : 1587454109913,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3af00763924dd16c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "e722336f6200b3bc",
+  "name" : "test_skip",
+  "fullName" : "test_basic#test_skip",
+  "historyId" : "c2be5e36626fe439e5b99407ef6a298a",
+  "time" : {
+    "start" : 1587459254910,
+    "stop" : 1587459254910,
+    "duration" : 0
+  },
+  "description" : "this test is skipped",
+  "descriptionHtml" : "<p>this test is skipped</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: for a reason!",
+  "statusTrace" : "('/Users/pinrong/learn/test/test_allure_report/test_basic.py', 16, 'Skipped: for a reason!')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_basic"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "87398-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_basic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9cba822228e2102d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: for a reason!",
+      "time" : {
+        "start" : 1587458911074,
+        "stop" : 1587458911074,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff8378abf8de3cfa",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: for a reason!",
+      "time" : {
+        "start" : 1587454109949,
+        "stop" : 1587454109949,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "942cf6cdf04f3bbc",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: for a reason!",
+        "time" : {
+          "start" : 1587458911074,
+          "stop" : 1587458911074,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1e2c7c179bc36229",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: for a reason!",
+        "time" : {
+          "start" : 1587454109949,
+          "stop" : 1587454109949,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e722336f6200b3bc.json",
+  "parameterValues" : [ ]
+}

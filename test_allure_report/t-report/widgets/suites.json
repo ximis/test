@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "c401ead9f218bc1f5873b2a8645c32d9",
+    "name" : "test_basic",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "31d9eb38be8807f8021658fda9ce7eeb",
+    "name" : "test_allure_step",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "5bf6237d105716c8be3a98910864499b",
+    "name" : "test_allure_tag",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "0934b6df64138fd1855fa4a1d6b300ff",
+    "name" : "test_link",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "145c22445d6a5c6b6104ebb7d549bbc9",
+    "name" : "test_failure",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "767ea541d83edcaf2477edbaa69304ef",
+    "name" : "test_skipif",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

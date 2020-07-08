@@ -1,0 +1,50 @@
+{
+  "uid" : "a70e78bd4c45b2a1",
+  "name" : "test_success",
+  "fullName" : "test_basic#test_success",
+  "historyId" : "976c532c0119adb12cffbffb51bfccfa",
+  "time" : {
+    "start" : 1587454109918,
+    "stop" : 1587454109918,
+    "duration" : 0
+  },
+  "description" : "this test succeeds",
+  "descriptionHtml" : "<p>this test succeeds</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_basic"
+  }, {
+    "name" : "host",
+    "value" : "pinrongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "83258-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_basic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a70e78bd4c45b2a1.json",
+  "parameterValues" : [ ]
+}
