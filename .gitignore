@@ -1,0 +1,6 @@
+/venv/
+allure-result
+.pytest_cache
+*.pyc
+*.DS_Store
+/.idea/
