@@ -1,0 +1,4 @@
+the path is: /_api/margin-polymerize/auto/borrow/order?c=718ca8fdac8145ea8934308555b6497c&lang=zh_CN
+the url is: https://trade.kucoin.net/_api/margin-polymerize/auto/borrow/order?c=718ca8fdac8145ea8934308555b6497c&lang=zh_CN
+form data is: {b'type': b'limit', b'price': b'0.1', b'symbol': b'BTC-USDT', b'channel': b'WEB', b'postOnly': b'false', b'side': b'buy', b'size': b'0.1', b'tradeType': b'MARGIN_TRADE'}
+form data is source: MultiDictView[(b'type', b'limit'), (b'price', b'0.1'), (b'symbol', b'BTC-USDT'), (b'channel', b'WEB'), (b'postOnly', b'false'), (b'side', b'buy'), (b'size', b'0.1'), (b'tradeType', b'MARGIN_TRADE')]
