@@ -8,3 +8,5 @@ def test_db_initialized(db):
         # pytest.fail("deliberately failing for demo purposes")
 
 
+def test_tt():
+    pass

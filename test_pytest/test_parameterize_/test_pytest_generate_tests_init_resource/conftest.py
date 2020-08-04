@@ -1,9 +1,15 @@
 import pytest
+import os
 
 
 def pytest_generate_tests(metafunc):
     if "db" in metafunc.fixturenames:
         metafunc.parametrize("db", ["d1", "d2"], indirect=True)
+
+    print(metafunc.definition.name)    #方法名
+    print(metafunc.definition.fspath.purebasename)    #文件名
+    print(os.path.basename(metafunc.definition.fspath.dirname))  #上级文件夹名
+    # metafunc.fixturenames #默认值[]
 
 
 class DB1:
