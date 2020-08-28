@@ -43,14 +43,25 @@ class WebSocketConnnect:
         result = self.ws.recv()
         print("Received '%s'" % result)
 
-    def getData(self):
-        print("start -----")
+    def get_data(self):
         result = None
-
+        self._ping()
         result = self.ws.recv()
         print(time.time(), "Received '%s'" % json.dumps(json.loads(result), indent=4, separators=(',', ":")))
 
         return json.loads(result)
+
+    def _ping(self):
+        if time.time() - self.current >= self.timeout:
+            self.current = time.time()
+            data = {
+                "id": self._get_time_str(),
+                "type": "subscribe",
+                "topic": self.topic,
+                "privateChannel": True,
+                "response": True
+            }
+            self.ws.send(json.dumps(data))
 
     def get_data_with_status(self, status):
         data = self.getData()
@@ -64,6 +75,12 @@ class WebSocketConnnect:
         while data['subject'] != subject:
             data = self.getData()
 
+        return data
+
+    def get_data_with_data_limit(self, key, value):
+        data = self.get_data()
+        while key not in data['data'] or data['data'][key] != value:
+            data = self.get_data()
         return data
 
 
