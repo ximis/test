@@ -35,7 +35,7 @@ pluggy==0.13.1
 prometheus-client==0.8.0
 protobuf==3.11.3
 publicsuffix2==2.20191221
-py==1.8.1
+py==1.10.0
 pyasn1==0.4.8
 pycparser==2.20
 PyMySQL==0.9.3
